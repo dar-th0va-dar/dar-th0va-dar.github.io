@@ -1,9 +1,25 @@
 .header {
-  background-image: url('img/52844613483_e3ac7444a5_o.jpg');
-  height: 300px;
+  background-image: url('img/header.jpg');
+  background-size: 1100px;
+  max-width: 100%;
+  /* height: auto; */
+  width: auto;
+  height: 700px;
+  /* width: auto; */
+  background-repeat: no-repeat;
+  background-position: 100%;
 
-  text-align: center;
+  text-align: left;
+  vertical-align: text-bottom;
+  color: black;
+}
+
+h2 {
   color: white;
+}
+
+p {
+  color: rgb(85, 85, 85);
 }
 
 
@@ -12,10 +28,8 @@
 
 
 
-
-
-/* .header {
-  width: 100%;
+/* .header  {
+  width: 100%;  
   text-align: center;
   background-color: lightblue;
   background-image: linear-gradient(to right, black, rgba(145, 9, 9, 0.6));
