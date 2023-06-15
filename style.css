@@ -13,7 +13,7 @@
 
 #grad1 {
   height: 200px;
-  background-image: linear-gradient(to right, rgb(28, 141, 179), rgba(255, 255, 255, 0));
+  background-image: linear-gradient(to right, rgb(28, 141, 179), rgba(255, 255, 255, 0), url('img/52844613483_e3ac7444a5_o.jpg'));
 }
 
 h1 {
