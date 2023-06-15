@@ -3,11 +3,11 @@ body {
 }
 
 h1 {
-  color: grey
+  color: black
 }
 
 p {
-  color: rgb(51, 63, 59);
+  color: white;
 }
 
 .header {
@@ -16,4 +16,6 @@ p {
   text-align: center;
   background: #539ec9;
   color: white;
+
+  column-count: 2;
 }
