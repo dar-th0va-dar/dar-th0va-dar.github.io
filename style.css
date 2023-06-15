@@ -1,7 +1,8 @@
 .header {
   width: 100%;
   text-align: center;
-  background-image: linear-gradient(to right, blue, rgba(145, 9, 9, 0.6));
+  background-color: blue;
+  /* background-image: linear-gradient(to right, blue, rgba(145, 9, 9, 0.6)); */
   color: white;
 
   height: 280px;
