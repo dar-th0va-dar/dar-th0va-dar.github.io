@@ -1,7 +1,22 @@
 .header {
+  background-image: url('img/52844613483_e3ac7444a5_o.jpg');
+
+  text-align: center;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+/* .header {
   width: 100%;
   text-align: center;
-  /* background-color: lightblue; */
+  background-color: lightblue;
   background-image: linear-gradient(to right, black, rgba(145, 9, 9, 0.6));
   color: white;
 
@@ -26,4 +41,4 @@ body {
 
 p {
   color: black;
-}
+} */
