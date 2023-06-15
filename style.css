@@ -1,5 +1,5 @@
 body {
-  background-color: lightblue;
+  background-color: white;
 }
 
 h1 {
@@ -7,7 +7,7 @@ h1 {
 }
 
 p {
-  color: aquamarine;
+  color: rgb(51, 63, 59);
 }
 
 .header {
