@@ -1,21 +1,30 @@
 .header {
-  background-image: url('img/header.jpg');
-  background-size: 1100px;
-  max-width: 100%;
-  /* height: auto; */
-  width: auto;
-  height: 700px;
-  /* width: auto; */
-  background-repeat: no-repeat;
+  background-color: rgb(189, 189, 189);
+  background-image: linear-gradient(to left, transparent 30%, transparent 20%, rgb(189, 189, 189) 80%), url('img/IMG_7327_crop.JPG');
+  background-size: 1500px;
+  height: 900px;
   background-position: 100%;
+  background-repeat: no-repeat;
 
-  text-align: left;
-  vertical-align: text-bottom;
-  color: black;
+  display: grid;
+  grid-template-columns: 20px 10000px;
+  align-content: end;
+
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 130%;
+  line-height: 20%;
 }
 
-h2 {
-  color: white;
+.header h1 {
+  text-decoration: underline;
+}
+
+body {
+  margin: auto;
+}
+
+h3 {
+  color: rgb(85, 85, 85);
 }
 
 p {
