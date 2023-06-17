@@ -1,21 +1,85 @@
-.header {
-  background-image: url('img/header.jpg');
-  background-size: 1100px;
-  max-width: 100%;
-  /* height: auto; */
-  width: auto;
-  height: 700px;
-  /* width: auto; */
+/* .header {
+  background-color: lightgray;
+  background-image: linear-gradient(to right, transparent 50%, lightgray), url('img/header\ 2\ crop.JPG');
+  background-size: 1500px;
+  height: 900px;
   background-repeat: no-repeat;
-  background-position: 100%;
 
-  text-align: left;
-  vertical-align: text-bottom;
-  color: black;
+  display: grid;
+  grid-template-columns: 20px 10000px;
+  align-content: end;
+
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 150%;
+  line-height: 50%;
+} */
+
+.header {
+  /* background-color: lightgray;
+  background-image: linear-gradient(to right, transparent 50%, lightgray), url('img/header\ 2\ crop.JPG');
+  background-size: 1500px;
+  height: 900px;
+  background-repeat: no-repeat; */
 }
 
-h2 {
+.grid-container {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  grid-template-rows: 130% 130%;
+  justify-content: right;
+  margin-top: 11%;
+  margin-right: 10%;
+  
+  column-gap: 10%;
+  row-gap: 90%;
+  column-rule-color: aqua;
+}
+
+.grid-item {
+  display: inline;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  vertical-align: middle;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  /* text-align: center; */
+  /* margin: auto; */
+}
+
+/* buttons */
+/* a.education:link {
+  background-color: #f44336;
   color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+}
+
+a.job:link {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+} */
+
+.header h1 {
+  text-decoration: underline;
+}
+
+body {
+  margin: auto;
+}
+
+h1 {
+  color: white;
+}
+
+h3 {
+  color: rgb(215, 215, 215);
 }
 
 p {
