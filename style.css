@@ -25,28 +25,24 @@
 .grid-container {
   display: grid;
   grid-template-columns: 200px 200px;
-  grid-template-rows: 130% 130%;
+  grid-template-rows: 200px 200px;
   justify-content: right;
-  margin-top: 11%;
+  margin-top: 10%;
   margin-right: 10%;
   
   column-gap: 10%;
-  row-gap: 90%;
-  column-rule-color: aqua;
+  row-gap: 40%;
 }
 
 .grid-item {
-  display: inline;
-  align-items: center;
-  justify-content: center;
   text-align: center;
-  vertical-align: middle;
-  background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
   font-size: 30px;
-  /* text-align: center; */
-  /* margin: auto; */
+}
+
+.grid-item p {
+  position: relative;
+  top: 25%;
 }
 
 /* buttons */
@@ -85,39 +81,3 @@ h3 {
 p {
   color: rgb(85, 85, 85);
 }
-
-
-
-
-
-
-
-/* .header  {
-  width: 100%;  
-  text-align: center;
-  background-color: lightblue;
-  background-image: linear-gradient(to right, black, rgba(145, 9, 9, 0.6));
-  color: white;
-
-  height: 280px;
-  column-count: 2;
-  column-gap: 40px;
-  column-rule-style: solid;
-}
-
-#grad1 {
-  height: 200px;
-  background-image: linear-gradient(to right, rgb(28, 141, 179), rgba(255, 255, 255, 0));
-}
-
-h1 {
-  color: black
-}
-
-body {
-  background-color: lightgray;
-}
-
-p {
-  color: black;
-} */
