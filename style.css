@@ -1,25 +1,8 @@
-/* .header {
-  background-color: lightgray;
-  background-image: linear-gradient(to right, transparent 50%, lightgray), url('img/header\ 2\ crop.JPG');
-  background-size: 1500px;
-  height: 900px;
-  background-repeat: no-repeat;
-
-  display: grid;
-  grid-template-columns: 20px 10000px;
-  align-content: end;
-
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 150%;
-  line-height: 50%;
-} */
-
 .header {
-  /* background-color: lightgray;
-  background-image: linear-gradient(to right, transparent 50%, lightgray), url('img/header\ 2\ crop.JPG');
-  background-size: 1500px;
-  height: 900px;
-  background-repeat: no-repeat; */
+  background-image: url('img/header\ 2\ crop.JPG');
+  background-repeat: no-repeat;
+  height: 835px;
+  background-size: 1700px;
 }
 
 .grid-container {
@@ -27,8 +10,8 @@
   grid-template-columns: 200px 200px;
   grid-template-rows: 200px 200px;
   justify-content: right;
-  margin-top: 10%;
-  margin-right: 10%;
+  margin-top: 5%;
+  margin-right: 5%;
   
   column-gap: 10%;
   row-gap: 40%;
@@ -36,13 +19,17 @@
 
 .grid-item {
   text-align: center;
-  border: 1px solid rgba(0, 0, 0, 0.8);
+  border: 5px solid white;
   font-size: 30px;
 }
 
 .grid-item p {
   position: relative;
   top: 25%;
+
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  font-weight: bold;
 }
 
 /* buttons */
@@ -62,22 +49,39 @@ a.job:link {
   text-decoration: none;
 } */
 
-.header h1 {
-  text-decoration: underline;
+.header-text {
+  position: relative;
+  top: 80%;
+  margin-top: 0%;
+  margin-left: 2%;
+
+  color: white;
+}
+
+#education {
+  background-image: url('img/original_68ca6a77-e6f1-4520-92c5-dd0a15adb846_IMG_20230609_171516283_HDR.jpg');
+  background-repeat: no-repeat;
+  background-size: 200px;
+}
+
+#jobs {
+  background-image: url('img/cn-camps.jpg');
+  background-repeat: no-repeat;
+  background-size: 260px;
+}
+
+#experience {
+  background-image: url('img/52844170571_e49520a314_o\ \(1\).jpg');
+  background-repeat: no-repeat;
+  background-size: 200px;
+}
+
+#skills {
+  background-image: url('img/52416879986_d2f550ba93_b.jpg');
+  background-repeat: no-repeat;
+  background-size: 300px;
 }
 
 body {
   margin: auto;
-}
-
-h1 {
-  color: white;
-}
-
-h3 {
-  color: rgb(215, 215, 215);
-}
-
-p {
-  color: rgb(85, 85, 85);
 }
