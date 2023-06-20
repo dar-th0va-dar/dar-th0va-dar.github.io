@@ -59,25 +59,31 @@ a.job:link {
 }
 
 #education {
-  background-image: url('img/original_68ca6a77-e6f1-4520-92c5-dd0a15adb846_IMG_20230609_171516283_HDR.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('img/original_68ca6a77-e6f1-4520-92c5-dd0a15adb846_IMG_20230609_171516283_HDR.jpg');
   background-repeat: no-repeat;
   background-size: 200px;
 }
 
+/* #education :hover {
+  background-image: url('img/original_68ca6a77-e6f1-4520-92c5-dd0a15adb846_IMG_20230609_171516283_HDR.jpg');
+  background-repeat: no-repeat;
+  background-size: 200px;
+} */
+
 #jobs {
-  background-image: url('img/cn-camps.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('img/cn-camps.jpg');
   background-repeat: no-repeat;
   background-size: 260px;
 }
 
 #experience {
-  background-image: url('img/52844170571_e49520a314_o\ \(1\).jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('img/52844170571_e49520a314_o\ \(1\).jpg');
   background-repeat: no-repeat;
   background-size: 200px;
 }
 
 #skills {
-  background-image: url('img/52416879986_d2f550ba93_b.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('img/52416879986_d2f550ba93_b.jpg');
   background-repeat: no-repeat;
   background-size: 300px;
 }
