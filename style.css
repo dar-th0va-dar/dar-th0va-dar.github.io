@@ -1,68 +1,53 @@
 .header {
-  background-color: rgb(189, 189, 189);
-  background-image: linear-gradient(to left, transparent 30%, transparent 20%, rgb(189, 189, 189) 80%), url('img/IMG_7327_crop.JPG');
+  background-color: rgb(231, 213, 200);
+  background-image: linear-gradient(to left, transparent 30%, rgb(231, 213, 200) 70%), url('img/IMG_7327_crop.JPG');
   background-size: 1500px;
-  height: 900px;
+  height: 825px;
   background-position: 100%;
   background-repeat: no-repeat;
+}
 
-  display: grid;
-  grid-template-columns: 20px 10000px;
-  align-content: end;
+.header-text {
+  position: relative;
+  top: 70%;
+  left: 2%;
+  line-height: 1;
 
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 130%;
-  line-height: 20%;
+  font-size: 140%;
+  color: rgb(74, 35, 7);
 }
 
-.header h1 {
+.header-text h1 {
   text-decoration: underline;
+  margin: 0%;
 }
+
+.button {
+  background-color: rgb(168, 90, 47);
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 20%;
+  background-repeat: no-repeat;
+}
+
+/* attempts at icons
+.education {
+  background-image: url(img/cap.jpg);
+  background-size: 100%;
+}
+
+.work {
+  background-image: url(img/work.jpg);
+  background-size: 100%;
+} */
 
 body {
   margin: auto;
 }
-
-h3 {
-  color: rgb(85, 85, 85);
-}
-
-p {
-  color: rgb(85, 85, 85);
-}
-
-
-
-
-
-
-
-/* .header  {
-  width: 100%;  
-  text-align: center;
-  background-color: lightblue;
-  background-image: linear-gradient(to right, black, rgba(145, 9, 9, 0.6));
-  color: white;
-
-  height: 280px;
-  column-count: 2;
-  column-gap: 40px;
-  column-rule-style: solid;
-}
-
-#grad1 {
-  height: 200px;
-  background-image: linear-gradient(to right, rgb(28, 141, 179), rgba(255, 255, 255, 0));
-}
-
-h1 {
-  color: black
-}
-
-body {
-  background-color: lightgray;
-}
-
-p {
-  color: black;
-} */
