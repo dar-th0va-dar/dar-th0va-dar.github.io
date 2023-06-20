@@ -1,59 +1,94 @@
 .header {
-  background-image: url('img/header.jpg');
-  background-size: 1100px;
-  max-width: 100%;
-  /* height: auto; */
-  width: auto;
-  height: 700px;
-  /* width: auto; */
+  background-color: rgb(204, 197, 187);
+  background-image: linear-gradient(to left, rgb(204, 197, 187) 40%, transparent 70%), url('img/header\ 2\ crop.JPG');
   background-repeat: no-repeat;
-  background-position: 100%;
-
-  text-align: left;
-  vertical-align: text-bottom;
-  color: black;
+  height: 835px;
+  background-size: 1400px;
 }
 
-h2 {
+.header-text {
+  position: relative;
+  top: 5%;
+  margin-top: 0%;
+  margin-left: 2%;
+
   color: white;
 }
 
-p {
-  color: rgb(85, 85, 85);
+.grid-container {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  grid-template-rows: 200px 200px;
+  justify-content: right;
+  margin-top: 5%;
+  margin-right: 5%;
+  
+  column-gap: 10%;
+  row-gap: 40%;
 }
 
-
-
-
-
-
-
-/* .header  {
-  width: 100%;  
+.grid-item {
   text-align: center;
-  background-color: lightblue;
-  background-image: linear-gradient(to right, black, rgba(145, 9, 9, 0.6));
+  border: 5px solid white;
+  font-size: 30px;
+}
+
+.grid-item p {
+  position: relative;
+  top: 25%;
+
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: white;
-
-  height: 280px;
-  column-count: 2;
-  column-gap: 40px;
-  column-rule-style: solid;
+  font-weight: bold;
 }
 
-#grad1 {
-  height: 200px;
-  background-image: linear-gradient(to right, rgb(28, 141, 179), rgba(255, 255, 255, 0));
+/* buttons */
+/* a.education:link {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
 }
 
-h1 {
-  color: black
+a.job:link {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+} */
+
+#education {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('img/original_68ca6a77-e6f1-4520-92c5-dd0a15adb846_IMG_20230609_171516283_HDR.jpg');
+  background-repeat: no-repeat;
+  background-size: 200px;
+}
+
+/* #education :hover {
+  background-image: url('img/original_68ca6a77-e6f1-4520-92c5-dd0a15adb846_IMG_20230609_171516283_HDR.jpg');
+  background-repeat: no-repeat;
+  background-size: 200px;
+} */
+
+#jobs {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('img/cn-camps.jpg');
+  background-repeat: no-repeat;
+  background-size: 260px;
+}
+
+#experience {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('img/52844170571_e49520a314_o\ \(1\).jpg');
+  background-repeat: no-repeat;
+  background-size: 200px;
+}
+
+#skills {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('img/Screenshot\ 2023-06-19\ 214325\ edited.png');
+  background-repeat: no-repeat;
+  background-size: 250px;
 }
 
 body {
-  background-color: lightgray;
+  margin: auto;
 }
-
-p {
-  color: black;
-} */
