@@ -1,8 +1,18 @@
 .header {
-  background-image: url('img/header\ 2\ crop.JPG');
+  background-color: rgb(204, 197, 187);
+  background-image: linear-gradient(to left, rgb(204, 197, 187) 40%, transparent 70%), url('img/header\ 2\ crop.JPG');
   background-repeat: no-repeat;
   height: 835px;
-  background-size: 1700px;
+  background-size: 1400px;
+}
+
+.header-text {
+  position: relative;
+  top: 5%;
+  margin-top: 0%;
+  margin-left: 2%;
+
+  color: white;
 }
 
 .grid-container {
@@ -49,15 +59,6 @@ a.job:link {
   text-decoration: none;
 } */
 
-.header-text {
-  position: relative;
-  top: 80%;
-  margin-top: 0%;
-  margin-left: 2%;
-
-  color: white;
-}
-
 #education {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('img/original_68ca6a77-e6f1-4520-92c5-dd0a15adb846_IMG_20230609_171516283_HDR.jpg');
   background-repeat: no-repeat;
@@ -83,9 +84,9 @@ a.job:link {
 }
 
 #skills {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('img/52416879986_d2f550ba93_b.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('img/Screenshot\ 2023-06-19\ 214325\ edited.png');
   background-repeat: no-repeat;
-  background-size: 300px;
+  background-size: 250px;
 }
 
 body {
